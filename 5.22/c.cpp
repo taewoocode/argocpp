@@ -1,3 +1,8 @@
+/**
+ * 백준 2979 트럭주차 
+ * counting배열이 핵심
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int A,B,C,a,b,cnt[104], ret;
@@ -11,7 +16,7 @@ int main(){
     }
     for(int j = 1; j < 100; j++){
         if(cnt[j]){
-            if(cnt[j] == 1)ret += B * 2;
+            if(cnt[j] == 1)ret += A;
             else if(cnt[j] == 2)ret += B*2;
             else if(cnt[j] == 3)ret += C*3;        
         }

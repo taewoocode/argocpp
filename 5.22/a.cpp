@@ -5,4 +5,4 @@ int main(){
     char a = 'a';
     cout << (int)a << '\n';
     return 0;
-}
+} 

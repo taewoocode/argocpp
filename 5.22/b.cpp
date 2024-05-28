@@ -2,7 +2,7 @@
 using namespace std;
 typedef long long;
 string str;
-int cnt[26];
+int cnt[26]; //각 배열의 요소는 0으로 초기화가 되어있다.
 int main(){
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
     cin >> str;

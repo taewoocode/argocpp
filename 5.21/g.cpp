@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
     string a = "love is";
-    a += " pain!";
-    a.pop_back();
+    a += " pain!"; // 문자열에 추가 띄어쓰기 까지 추가댐
+    a.pop_back(); //
     cout << a << " : " << a.size() << '\n';
     cout << char(* a.begin()) << '\n';
     cout << char(* a.end()-1 ) << '\n';

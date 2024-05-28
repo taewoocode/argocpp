@@ -14,8 +14,8 @@ int solution(){
 int main(){
     string a;
     cin >> a;
-    cout << a << '\n';
-    int b = solution();
+    cout << a << '\n'; //주홍철
+    int b = solution(); //주홍철 바보
     cout << b << '\n';
 
     return 0;

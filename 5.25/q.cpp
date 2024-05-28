@@ -18,7 +18,6 @@ int add2(int a, int b){
     return 0;
 }
 
-
 int main(){
     solution();
     int result = add(5,7);

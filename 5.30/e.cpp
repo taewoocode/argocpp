@@ -25,7 +25,7 @@ string solution(string rsp) {
 
 int main() {
     // 테스트 케이스
-    cout << solution("205") << endl; // 예: "250" 출력 기대
+    cout << solution("205") << endl; // 예: "052" 출력 기대
     return 0;
 }
 

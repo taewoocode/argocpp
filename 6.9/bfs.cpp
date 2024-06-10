@@ -10,7 +10,7 @@ void bfs(int here){
     while(q.size()){
         int here = q.front();
         q.pop();
-        for(int there : adj[here]){
+        for(int there : adj[here]){ //adj[10] = {12,14,16}
             //만약 방문했다면 continue
             if(visited[there]){
                 continue;

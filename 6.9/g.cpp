@@ -5,13 +5,13 @@ vector<int> adj[n];
 int visited[n];
 void dfs(int u){
     visited[u] = 1;
-    cout << u << '\n';
+    cout << u << '\n'; // debuging
     for(int v : adj[u]){
         if(visited[v] == 0){ //방문하지 않았다면
             dfs(v); //노드에 대해서 깊이 우선 탐색을 시작한다.
         }
     }
-    cout << u << "로부터 시작된 함수가 종료되었습니다." << '\n';
+    cout << u << "로부터 시작된 함수가 종료되었습니다." << '\n'; //debuging
 }
 
 

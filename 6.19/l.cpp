@@ -6,6 +6,6 @@ using namespace std;
 int main(){
     int s = 18;
     int idx = (s & -s);
-    cout << idx << '\n';
+    cout << idx << '\n'; //2
     return 0;
 }

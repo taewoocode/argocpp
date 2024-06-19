@@ -37,7 +37,6 @@ int main() {
         cout << "found it" << '\n';
     } else {
         cout << "not found" << '\n';
-
-
+    }
     return 0;
 }

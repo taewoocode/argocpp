@@ -4,9 +4,6 @@ int main(){
     int s = 18;
     int idx = 2;
     s ^= 1 << idx; 
-    cout << s; //2
-
-
-
+    cout << s; //22
     return 0;
 }

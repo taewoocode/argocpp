@@ -14,13 +14,15 @@ int main(){
 
     };
 
-    //string a,b,c;
-    //cin >> a >> b >> c;
+    string a,b,c;
+    cin >> a >> b >> c;
     string s1,s2,s3;
-    s1 = to_string(mp[0].first);
-    cout << s1 << ' ';
-    //s2 = to_string(mp[b].first);
+    s1 = to_string(mp[a].first); //mp[black].first; -> 0을 출력할 것임
+    s2 = to_string(mp[b].first);
     s3 = s1 + s2;
+
+    long number = stoi(s3); //string -> int 
+    cout << number * mp[c].second << '\n';
 
     return 0;
 }

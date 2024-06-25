@@ -11,6 +11,8 @@ int main(){
     for(int it : v){
         cout << it;
     }
+    cout << '\n';
 
     return 0;
 }
+

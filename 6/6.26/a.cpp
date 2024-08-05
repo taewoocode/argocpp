@@ -9,11 +9,5 @@ int main(){
     for(auto i : mp){
         cout << i.first << " = " << i.second << ' ';
     }
-
-
-
-
-
-
     return 0;
 }

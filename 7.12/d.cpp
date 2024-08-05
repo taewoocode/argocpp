@@ -3,7 +3,7 @@ using namespace std;
 vector<vector<int>> chickenList;
 vector<pair<int,int>> _home, chicken;
 int n,m,a[54][54], result =987654321;
-int combi(int start, vector<int> v){
+void combi(int start, vector<int> v){
     if(v.size() == m){
         chickenList.push_back(v);    
         return;

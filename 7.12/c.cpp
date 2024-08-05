@@ -16,9 +16,6 @@ int main() {
 
         // 전화번호 리스트를 사전 순으로 정렬
         sort(p.begin(), p.end());
-        for(auto i : p){
-            cout << i << ' ';
-        }
 
         // 인접한 전화번호들끼리 접두어 관계가 있는지 확인
         bool hasPrefix = false;

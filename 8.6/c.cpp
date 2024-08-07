@@ -5,7 +5,7 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
     string s = "123";
-    s[1]++; //143
+    s[1]++; //133
     cout << s << '\n';
     return 0;
 }

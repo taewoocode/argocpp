@@ -8,6 +8,7 @@ int main(){
         cout << v[i] << ' ';
     }
     cout << '\n';
+    //시계방향
     rotate(v.rbegin(), v.rbegin() + 1, v.rend());
     for(auto it : v){
         cout << it << ' ';

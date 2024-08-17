@@ -6,9 +6,5 @@ int main(){
     int pow_2 = pow(n,2);
     cout << ret << '\n';
     cout << pow_2 << '\n';
-
-
-
-
     return 0;
 }

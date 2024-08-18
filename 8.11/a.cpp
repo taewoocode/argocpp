@@ -15,6 +15,9 @@ vector<string> solution(int n, vector<int> arr1, vector<int> arr2) {
         reverse(tmp.begin(), tmp.end());
         answer.push_back(tmp);
     }
+
+
+    
     
 
     return answer;

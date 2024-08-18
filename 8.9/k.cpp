@@ -7,5 +7,6 @@ int main(){
     auto minIt = min_element(v.begin(), v.end());
     cout << *maxIt << '\n';
     cout << *minIt << '\n';
+    
     return 0;
 }

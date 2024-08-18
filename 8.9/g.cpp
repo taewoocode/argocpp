@@ -13,5 +13,11 @@ int main(){
     for(auto it : myset){
         cout << it << ' ';
     }
+
+    vector<int> v(myset.begin(), myset.end());
+    sort(v.begin(), v.end());
+    for(auto it = v.rbegin(); it != v.rend(); it++){
+        cout << *it << ' ';
+    }
     return 0;
 }
